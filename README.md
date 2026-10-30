@@ -53,13 +53,7 @@ You can also serve the folder (for example with VS Code's Live Server) so the pa
 | **Formspree ID** | Create a form at [formspree.io](https://formspree.io), then replace `YOUR_FORM_ID` in **both** `script.js` (`FORM_ENDPOINT`) and the `action` attribute of `#contactForm` in `index.html`. Until you do, the form opens the visitor's email app instead. |
 | **Open Graph URL** | The `og:url` / `og:image` tags in `<head>` assume `https://divichopra28.github.io/PORTFOLIO_WEBSITE/`. Update them if you use a custom domain. |
 
-## Deploy to GitHub Pages
-1. Push the files to the `main` branch of your GitHub repository.
-2. On GitHub, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/ (root)`, and click **Save**.
-4. After a minute the site will be live at `https://<username>.github.io/<repo-name>/`.
 
-All asset paths are relative, so the site works from a repository sub-path.
 
 ## Contact
 - Email: divi.chopra28@gmail.com
